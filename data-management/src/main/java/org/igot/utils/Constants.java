@@ -209,6 +209,7 @@ public class Constants {
 	public static final String APPLY_BATCH = " APPLY BATCH;";
 	// Database and Tables
 	public static final String KEYSPACE_SUNBIRD = "sunbird";
+	public static final String KEYSPACE_LMS = "lms";
 	public static final String KEYSPACE_SUNBIRD_COURSES = "sunbird_courses";
 	public static final String TABLE_ORG_BUDGET_SCHEME = "org_budget_scheme";
 	public static final String TABLE_USER_ASSESSMENT_TIME = "user_assessment_time";
@@ -224,6 +225,7 @@ public class Constants {
 	public static final String TABLE_USER_WORK_ALLOCATION_MAPPING = "user_work_allocation_mapping";
 	public static final String TABLE_MANDATORY_USER_CONTENT = "mandatory_user_content";
 	public static final String TABLE_ORGANIZATION = "organisation";
+	public static final String TABLE_ORG = "org";
 	public static final String TABLE_USER_ENROLMENT = "user_enrolments";
 	public static final String TABLE_USER = "user";
 	public static final String TABLE_COURSE_BATCH = "course_batch";
