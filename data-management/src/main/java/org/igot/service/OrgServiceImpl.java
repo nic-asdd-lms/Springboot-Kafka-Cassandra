@@ -164,7 +164,7 @@ public class OrgServiceImpl implements OrgService {
         ObjectMapper objectMapper = new ObjectMapper();
         Map<String, Object> orgMap = objectMapper.convertValue(org, Map.class);
 
-        cassandraOperation.insertRecord(Constants.SUNBIRD_KEY_SPACE_NAME, Constants.TABLE_ORG_HIERARCHY, orgMap);
+        cassandraOperation.insertRecord(Constants.KEYSPACE_LMS, Constants.TABLE_ORG, orgMap);
 
 
 
