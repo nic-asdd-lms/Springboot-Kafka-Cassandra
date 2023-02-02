@@ -4,7 +4,7 @@ Basic implemantation of Springboot, Kafka and Cassandra integration
 
 ## Setup
 
-1. Create kafka topic orgCreation
+1. Create kafka topic `orgCreation`
 2. Create keyspace `lms` and table `org` in cassandra
 
 ## Run
