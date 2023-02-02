@@ -14,16 +14,16 @@ Basic implemantation of Springboot, Kafka and Cassandra integration
 3. Run `data-management/src/main/java/org/igot/DataManagement.java`
 4. Execute curl:
 ```
-curl --location --request POST 'http://localhost:7001/org/create' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "mapid": "546546",
-"orgcode": "S52324",
-"orgname": <Org Name>,
-"parentmapid": <value>,
-"sborgid": null,
-"sborgtype": null,
-"sbrootorgid": null,
-"sbsuborgtype": null
-}'
+    curl --location --request POST 'http://localhost:7001/org/create' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "mapid": "546546",
+    "orgcode": "S52324",
+    "orgname": <Org Name>,
+    "parentmapid": <value>,
+    "sborgid": null,
+    "sborgtype": null,
+    "sbrootorgid": null,
+    "sbsuborgtype": null
+    }'
 ```
